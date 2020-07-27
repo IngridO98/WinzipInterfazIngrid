@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Recent"
+        android:icon="@drawable/icon_recent"
+        android:title="Recent" />
+    <item
+        android:id="@+id/Favorites"
+        android:icon="@drawable/icon_favorites"
+        android:title="Favorites" />
+
+
+
+    <item android:title="Places" >
+        <menu>
+            <item
+                android:id="@+id/Myfiles"
+                android:icon="@drawable/icon_myfiles"
+                android:title="My Files" />
+            <item
+                android:id="@+id/Storage"
+                android:icon="@drawable/icon_storage"
+                android:title="Storage" />
+            <item
+                android:id="@+id/Photos"
+                android:icon="@drawable/icon_photo"
+                android:title="Photos" />
+            <item
+                android:id="@+id/Music"
+                android:icon="@drawable/icon_music"
+                android:title="Music" />
+        </menu>
+    </item>
+
+    <item android:title="Network and Cloud">
+        <menu>
+            <item
+                android:id="@+id/Netword"
+                android:icon="@drawable/icon_network"
+                android:title="Netword" />
+            <item
+                android:id="@+id/Dropbox"
+                android:icon="@drawable/icon_dropbox"
+                android:title="Dropbox" />
+            <item
+                android:id="@+id/GoogleDrive"
+                android:icon="@drawable/icon_googledrive"
+                android:title="Google Drive" />
+        </menu>
+    </item>
+
+
+</menu>
